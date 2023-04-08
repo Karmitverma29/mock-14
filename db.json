@@ -1,8 +1,79 @@
 {
-    "sample":[
-        {
-            "name":"karmit",
-            "age":19
-        }
-    ]
+  "books": [
+    {
+      "id": 1,
+      "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Ym9va3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "name": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Fiction",
+      "edition": "2022",
+      "publisher": "Charles Scribner's Sons",
+      "cost": "299",
+      "borrowed": true,
+      "book_name": "Scott land"
+    },
+    {
+      "id": 2,
+      "image_url": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Ym9va3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "name": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "edition": "2022",
+      "publisher": "J. B. Lippincott & Co.",
+      "cost": 22,
+      "borrowed": false
+    },
+    {
+      "image_url": "https://images.unsplash.com/photo-1513001900722-370f803f498d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Ym9va3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "book_name": "Charlies Loos",
+      "author": "Alberta Enely",
+      "genre": "mystery",
+      "edition": "2023",
+      "publisher": "Charlies Loos",
+      "cost": "999",
+      "borrowed": false,
+      "id": 3
+    },
+    {
+      "image_url": "https://m.media-amazon.com/images/I/41oYp387k8L._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "book_name": "Do Epic Shit",
+      "author": "Ankur Warikoo",
+      "genre": "non-fiction",
+      "edition": "2023",
+      "publisher": "Ankur Warikoo",
+      "cost": "299",
+      "borrowed": true,
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Shuva",
+      "email": "shuva@gmail.com",
+      "password": "shuva123"
+    },
+    {
+      "username": "Shuv",
+      "email": "shuv@gmail.com",
+      "password": "shuv123",
+      "id": 2
+    },
+    {
+      "username": "karan",
+      "email": "karan@gmail.com",
+      "password": "karan123",
+      "id": 3
+    },
+    {
+      "email": "karan@gmail.com",
+      "password": "karan123",
+      "id": 4
+    },
+    {
+      "email": "shuva@gmail.com",
+      "password": "shuva123",
+      "id": 5
+    }
+  ]
 }
